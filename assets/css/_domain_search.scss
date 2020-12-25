@@ -1,0 +1,143 @@
+#domain_search {
+    padding: 6rem 0 3rem 0;
+    background-image: url(./../image/gradient_bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .image_area {
+            max-width: 57rem;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .search_wrapper {
+            padding-top: 6.5rem;
+            width: 57rem;
+
+            h2 {
+                color: #ffffff;
+                max-width: 51rem;
+                font-size: 5rem;
+                font-family: G-bold;
+                margin-bottom: 3rem;
+
+            }
+
+            .top_level_area {
+                display: flex;
+                max-width: 56rem;
+                justify-content: space-between;
+                margin-bottom: 6rem;
+
+                .single {
+                    width: 12.5rem;
+                    height: 6.5rem;
+                    border-radius: 1.4rem;
+                    -webkit-border-radius: 1.4rem;
+                    -moz-border-radius: 1.4rem;
+                    -ms-border-radius: 1.4rem;
+                    -o-border-radius: 1.4rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-evenly;
+
+                    h4 {
+                        font-family: G-semibold;
+                        font-size: 2rem;
+                    }
+
+                    p {
+                        font-family: G-medium;
+                        font-size: 1.3rem;
+                        color: rgba(255, 255, 255, 0.4);
+                    }
+                }
+
+                .single.com {
+                    background-color: rgba(86, 243, 235, 0.15);
+
+                    h4 {
+                        color: #56F3EB;
+                    }
+                }
+
+                .single.org {
+                    background-color: rgba(249, 113, 10, 0.11);
+
+                    h4 {
+                        color: #F9720A;
+                    }
+                }
+
+                .single.net {
+                    background-color: rgba(251, 210, 99, 0.27);
+
+                    h4 {
+                        color: #F9BA0A;
+                    }
+                }
+
+                .single.live {
+                    background-color: rgba(29, 246, 123, 0.23);
+
+                    h4 {
+                        color: #1DF67A;
+                    }
+                }
+            }
+
+            .search_form {
+                display: flex;
+                width: 57rem;
+                height: 8rem;
+                background-color: #fff;
+                overflow: hidden;
+                border-radius: 2rem;
+                -webkit-border-radius: 2rem;
+                -moz-border-radius: 2rem;
+                -ms-border-radius: 2rem;
+                -o-border-radius: 2rem;
+
+                .search_icon {
+                    height: 100%;
+                    width: 8rem;
+                    background-color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 2.3rem;
+                        height: auto;
+                    }
+                }
+
+                form{
+                    width: calc(100% - 8rem);
+                    padding-right: 5rem;
+                    input[type=text]{
+                        width: 100%;
+                        border: none;
+                        outline: none;
+                        height: 100%;
+                        font-size: 2rem;
+                        font-family: G-medium;
+                        color: rgba(36, 31, 112, 0.6);
+                    }
+                }
+            }
+        }
+
+
+    }
+}
