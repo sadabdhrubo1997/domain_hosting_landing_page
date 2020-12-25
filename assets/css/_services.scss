@@ -1,0 +1,202 @@
+#services {
+    padding: 17rem 0 0 0;
+    background-color: rgba(0, 0, 0, 0.089);
+
+
+    .wrapper {
+        h2 {
+            max-width: 57rem;
+            font-size: 5.5rem;
+            color: #21186B;
+            font-family: G-bold;
+            margin-bottom: 3rem;
+            text-align: left;
+            line-height: 1.5;
+            padding: 0;
+        }
+
+        p {
+            max-width: 61rem;
+            font-size: 2rem;
+            color: rgba(34, 24, 107, 0.4);
+            font-family: G-bold;
+            margin-bottom: 8rem;
+            text-align: left;
+            line-height: 2;
+            padding: 0;
+        }
+
+        .service_area {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .single_box {
+                width: 29.25%;
+                ;
+                margin-bottom: 10rem;
+                text-align: center;
+
+                img {
+                    width: 13.6rem;
+                    height: auto;
+                }
+
+                h3 {
+                    margin-top: 6rem;
+                    margin-bottom: 3rem;
+                    color: #21186B;
+                    font-size: 3rem;
+                    font-family: G-bold;
+                }
+
+                P {
+                    text-align: center;
+                    margin-bottom: 0;
+                    color: rgba(34, 24, 107, 0.4);
+                    font-size: 1.8rem;
+                    font-family: G-medium;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 769px) {
+
+    #services {
+        padding-top: 8rem;
+
+        .wrapper {
+            h2 {
+                max-width: 100%;
+                font-size: 4.5rem;
+                color: #21186B;
+                font-family: G-bold;
+                margin-bottom: 3rem;
+                text-align: center;
+                line-height: 1.5;
+                padding: 0 10%;
+
+                br {
+                    display: none;
+                }
+            }
+
+            p {
+                max-width: 100%;
+                font-size: 2rem;
+                color: rgba(34, 24, 107, 0.4);
+                font-family: G-bold;
+                margin-bottom: 6rem;
+                text-align: center;
+                line-height: 2;
+                padding: 0 10%;
+            }
+
+            .service_area {
+                justify-content: space-evenly;
+
+                .single_box {
+                    width: 45%;
+                    ;
+                    margin-bottom: 6rem;
+                    text-align: center;
+
+                    img {
+                        width: 13.6rem;
+                        height: auto;
+                    }
+
+                    h3 {
+                        margin-top: 6rem;
+                        margin-bottom: 3rem;
+                        color: #21186B;
+                        font-size: 3rem;
+                        font-family: G-bold;
+                    }
+
+                    P {
+                        text-align: center;
+                        margin-bottom: 0;
+                        color: rgba(34, 24, 107, 0.4);
+                        font-size: 1.8rem;
+                        font-family: G-medium;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+
+
+
+@media only screen and (max-width: 577px) {
+
+    #services {
+        padding-top: 3rem;
+
+        .wrapper {
+            h2 {
+                font-size: 3rem;
+                margin-bottom: 2rem;
+            
+                line-height: 1.5;
+                padding: 0 5%;
+
+                br {
+                    display: none;
+                }
+            }
+
+            p {
+               
+                font-size: 2rem;
+                margin-bottom: 5rem;
+                text-align: center;
+                line-height: 2;
+                padding: 0 5%;
+            }
+
+            .service_area {
+                justify-content: space-evenly;
+
+                .single_box {
+                    width: 100%;
+                    ;
+                    margin-bottom: 5rem;
+                    text-align: center;
+
+                    img {
+                        width: 13.6rem;
+                        height: auto;
+                    }
+
+                    h3 {
+                        margin-top: 6rem;
+                        margin-bottom: 3rem;
+                        color: #21186B;
+                        font-size: 3rem;
+                        font-family: G-bold;
+                    }
+
+                    P {
+                        text-align: center;
+                        margin-bottom: 0;
+                        color: rgba(34, 24, 107, 0.4);
+                        font-size: 1.8rem;
+                        font-family: G-medium;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
