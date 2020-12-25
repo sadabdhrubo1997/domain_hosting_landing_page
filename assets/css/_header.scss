@@ -1,15 +1,12 @@
 // lg header
 
-
-
 #lg_header {
     width: 100%;
     height: 103.9rem;
-    background-image: url("./../../assets/image/lg_header_bg.svg");
-    background-size: 100%;
+    background-size: 100% 100%;
+    background-image: url(./../image/lg_header_bg.png);
     background-repeat: no-repeat;
     background-position: center;
-
 
     .top {
         width: 100%;
@@ -107,7 +104,6 @@
                             }
                         }
                     }
-
                 }
             }
 
@@ -196,7 +192,7 @@
             }
 
             .right {
-                margin-top: 1rem;
+                margin-top: 5rem;
                 width: calc(100% - 62.5rem);
                 height: 63.3rem;
 
@@ -209,28 +205,13 @@
     }
 }
 
-
-
-
-
 @media only screen and (max-width: 768px) {
     #lg_header {
         display: none;
     }
 }
 
-
-
 // lg header end
-
-
-
-
-
-
-
-
-
 
 // sm header
 @media only screen and (min-width: 769px) {
@@ -239,10 +220,7 @@
     }
 }
 
-
-
 #sm_header {
-
     .top {
         width: 100%;
         background-color: rgb(255, 255, 255);

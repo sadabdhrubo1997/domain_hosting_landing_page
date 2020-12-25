@@ -1,0 +1,117 @@
+#plan {
+    padding: 11.5rem 0 17.5rem 0;
+    background-image: url(./../image/gradient_bg2.png);
+    background-size: 100% 89rem;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    .wrapper {
+        .top {
+            h2 {
+                font-family: G-bold;
+                font-size: 5.5rem;
+                color: #ffffff;
+                text-align: center;
+                margin-bottom: 3rem;
+            }
+
+            p {
+                max-width: 108rem;
+                margin: 0 auto;
+                font-family: G-medium;
+                font-size: 2rem;
+                color: rgba(255, 255, 255, 0.6);
+                text-align: center;
+                line-height: 2;
+                margin-bottom: 11rem;
+            }
+        }
+
+        .btn_box {
+            max-width: 113rem;
+            height: 8rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: .2rem solid #686868;
+            margin-bottom: 14.4rem;
+
+            button {
+                border: none;
+                outline: none;
+                background: none;
+                padding: 0 2.5rem;
+                cursor: pointer;
+                margin-bottom: -0.2rem;
+                font-family: G-medium;
+                font-size: 2.8rem;
+                color: rgba(255, 255, 255, 0.6);
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+                    border-bottom: 2px solid rgba(86, 243, 235, 0);
+                }
+            }
+
+            button.active {
+                color: rgba(255, 255, 255, 1);
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+                    border-bottom: 2px solid rgba(86, 243, 235, 1);
+                }
+            }
+        }
+
+        .plan_wrapper {
+            background-color: rgba(255, 101, 101, 0.582);
+            width: 100%;
+            height: 50rem;
+            opacity: 1;
+        }
+
+        .fade {
+            animation: anm1 .5s linear infinite;
+            -webkit-animation: anm1 .5s linear infinite;
+}
+
+
+        @keyframes anm1 {
+            0%{
+                opacity: 1;
+            }
+            50%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+            
+        }
+    }
+}
