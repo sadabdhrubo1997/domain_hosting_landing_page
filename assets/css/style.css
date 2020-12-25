@@ -894,4 +894,100 @@ html {
   font-family: G-medium;
   color: rgba(36, 31, 112, 0.4);
 }
+
+#service_security {
+  width: 100%;
+  padding: 18.5rem 0;
+}
+
+#service_security .wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#service_security .wrapper .security_details_area {
+  width: 70rem;
+}
+
+#service_security .wrapper .security_details_area h2 {
+  color: #21186B;
+  font-family: G-bold;
+  font-size: 5.5rem;
+  margin-bottom: 3rem;
+  line-height: 1.5;
+}
+
+#service_security .wrapper .security_details_area p {
+  color: rgba(34, 24, 107, 0.4);
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-family: G-medium;
+  padding-right: 20%;
+  line-height: 2;
+  margin-bottom: 9.5rem;
+}
+
+#service_security .wrapper .security_details_area .list_box {
+  margin-bottom: 9rem;
+}
+
+#service_security .wrapper .security_details_area .list_box .single {
+  height: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3.3rem;
+}
+
+#service_security .wrapper .security_details_area .list_box .single img {
+  width: 2.8rem;
+  height: auto;
+  display: inline-block;
+  margin-right: 2.5rem;
+}
+
+#service_security .wrapper .security_details_area .list_box .single p {
+  margin-bottom: 0;
+  font-family: G-semibold;
+  font-size: 2.5rem;
+  color: rgba(34, 24, 107, 0.4);
+  padding: 0;
+}
+
+#service_security .wrapper .security_details_area .btn_wrapper a {
+  display: inline-block;
+  padding: 2.5rem 4.7rem;
+  border-radius: .7rem;
+  font-size: 2.5rem;
+  font-family: G-semibold;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: .7rem;
+  -webkit-border-radius: .7rem;
+  -moz-border-radius: .7rem;
+  -ms-border-radius: .7rem;
+  -o-border-radius: .7rem;
+  background-image: linear-gradient(145deg, #21186B 0%, #186396 100%);
+}
+
+#service_security .wrapper .image {
+  width: calc(100% - 70rem);
+  margin-right: -7.7rem;
+  margin-top: 7.2rem;
+}
+
+#service_security .wrapper .image img {
+  width: 100%;
+  height: auto;
+}
 /*# sourceMappingURL=style.css.map */
