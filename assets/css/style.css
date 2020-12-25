@@ -870,4 +870,28 @@ html {
   font-family: G-medium;
   color: rgba(36, 31, 112, 0.6);
 }
+
+#domain_search .wrapper .search_wrapper .search_form form input[type=text]::-webkit-input-placeholder {
+  font-size: 2rem;
+  font-family: G-medium;
+  color: rgba(36, 31, 112, 0.4);
+}
+
+#domain_search .wrapper .search_wrapper .search_form form input[type=text]:-ms-input-placeholder {
+  font-size: 2rem;
+  font-family: G-medium;
+  color: rgba(36, 31, 112, 0.4);
+}
+
+#domain_search .wrapper .search_wrapper .search_form form input[type=text]::-ms-input-placeholder {
+  font-size: 2rem;
+  font-family: G-medium;
+  color: rgba(36, 31, 112, 0.4);
+}
+
+#domain_search .wrapper .search_wrapper .search_form form input[type=text]::placeholder {
+  font-size: 2rem;
+  font-family: G-medium;
+  color: rgba(36, 31, 112, 0.4);
+}
 /*# sourceMappingURL=style.css.map */

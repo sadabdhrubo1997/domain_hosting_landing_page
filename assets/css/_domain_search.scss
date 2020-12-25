@@ -122,10 +122,11 @@
                     }
                 }
 
-                form{
+                form {
                     width: calc(100% - 8rem);
                     padding-right: 5rem;
-                    input[type=text]{
+
+                    input[type=text] {
                         width: 100%;
                         border: none;
                         outline: none;
@@ -133,6 +134,12 @@
                         font-size: 2rem;
                         font-family: G-medium;
                         color: rgba(36, 31, 112, 0.6);
+                    }
+
+                    input[type=text]::placeholder {
+                        font-size: 2rem;
+                        font-family: G-medium;
+                        color: rgba(36, 31, 112, 0.4);
                     }
                 }
             }
