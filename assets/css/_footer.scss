@@ -1,0 +1,72 @@
+#footer {
+    padding: 10rem 0 9rem 0;
+    background-color: #F7F5FF;
+    border-bottom: .1rem solid rgba(0, 0, 0, 0.1);
+
+    .wrapper {
+        width: 100%;
+        padding-right: 10rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .logo_with_short_description {
+            width: 40rem;
+
+            a {
+                max-width: 11.5rem;
+                display: block;
+                margin-bottom: 4.5rem;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            p {
+                max-width: 32rem;
+                color: rgba(34, 24, 107, 0.4);
+                font-size: 1.8rem;
+                font-family: G-medium;
+                line-height: 2;
+
+            }
+        }
+
+        .common {
+            padding-top: 2.5rem;
+
+            h2 {
+                color: #291E82;
+                font-family: G-bold;
+                font-size: 2.2rem;
+                margin-bottom: 4.4rem;
+            }
+
+            p {
+                margin-bottom: 2.6rem;
+
+                a {
+                    text-decoration: none;
+                    display: block;
+                    font-size: 1.8rem;
+                    color: rgba(42, 30, 130, 0.45);
+                    font-family: G-medium;
+                    transition: .2s;
+                    -webkit-transition: .2s;
+                    -moz-transition: .2s;
+                    -ms-transition: .2s;
+                    -o-transition: .2s;
+                }
+
+                &:hover{
+                    a{
+                        color: rgba(42, 30, 130, 0.85);
+                    }
+                }
+            }
+        }
+
+    }
+}

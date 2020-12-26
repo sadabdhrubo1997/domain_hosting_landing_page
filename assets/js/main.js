@@ -39,8 +39,8 @@ $(document).ready(function () {
 
     // hambarger menu
     $("#hambarger").click(function () {
-       $(this).toggleClass("active")
-       
+        $(this).toggleClass("active")
+
     })
     // hambarger menu end
 
@@ -49,16 +49,55 @@ $(document).ready(function () {
     // plan area toggle
 
 
- $(".plan_button1").addClass("active")
-    $(".plan_button").click(function(e){
+    $(".plan_button1").addClass("active")
+    $(".plan_details").css({
+        'display': 'none'
+    })
+    $("#domain_hosting_plan").css({
+        'display': 'flex'
+    })
+    $(".plan_button").click(function (e) {
         $(".plan_button").removeClass("active")
         $(this).addClass("active")
-      $("#plan_wrapper_").addClass("fade");
+        $("#plan_wrapper").addClass("fade");
 
-      setTimeout(() => {
-        $("#plan_wrapper_").removeClass("fade");
-    }, 500);
-      
+        setTimeout(() => {
+            $("#plan_wrapper").removeClass("fade");
+        }, 500);
+    })
+
+    $("#domain_hosting_button").click(function () {
+        setTimeout(() => {
+            $(".plan_details").css({
+                'display': 'none'
+            })
+            $("#domain_hosting_plan").css({
+                'display': 'flex'
+            })
+        }, 250);
+
+    })
+
+    $("#virtual_server_button").click(function (e) {
+          setTimeout(() => {
+            $(".plan_details").css({
+                'display': 'none'
+            })
+            $("#virtual_server_plan").css({
+                'display': 'flex'
+            })
+        }, 250);
+    })
+
+    $("#dedicated_server_button").click(function (e) {
+          setTimeout(() => {
+            $(".plan_details").css({
+                'display': 'none'
+            })
+            $("#dedicated_server_plan").css({
+                'display': 'flex'
+            })
+        }, 250);
     })
 
     // plan area toggle end
